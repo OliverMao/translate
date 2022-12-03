@@ -23,8 +23,8 @@ class MainWindow(QMainWindow, Ui_MainWindow):
     def translate(self):
         self.output_text.setText('')
         data=self.input_text.toPlainText()
-        k_access_key = 'AKLTZWY2YmM5NTA1OTRhNGQ1ZThkMGI4NzliM2Y2NGFmZmQ'
-        k_secret_key = 'WmpOallqWmhORGhpTW1Vd05HUmtaRGxpTnpNeE16QTFOVEEzWTJOaU5tTQ=='
+        k_access_key = 'YOUR ACCESS KEY'
+        k_secret_key = 'YOUR SECRET KEY'
         k_service_info = \
             ServiceInfo('open.volcengineapi.com',
                         {'Content-Type': 'application/json'},
